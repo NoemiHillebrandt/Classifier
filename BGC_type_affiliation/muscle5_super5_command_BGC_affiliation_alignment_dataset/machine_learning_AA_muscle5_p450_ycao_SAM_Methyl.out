@@ -1,0 +1,314 @@
+p450   ExtraTreesClassifier  score: 0.48214630380235474
+p450   ExtraTreesClassifier  Balanced Accuracy Score: 0.4600285736724417
+p450   ExtraTreesClassifier  Crossvalidation scores: [0.44317937 0.4295233  0.42847279 0.44794616 0.42850274]
+p450                 precision    recall  f1-score   support
+
+         nrp       0.30      0.24      0.27      1433
+          pk       0.55      0.51      0.53      1734
+        ripp       0.52      0.63      0.57      2014
+
+    accuracy                           0.48      5181
+   macro avg       0.46      0.46      0.46      5181
+weighted avg       0.47      0.48      0.47      5181
+
+p450   RandomForestClassifier  score: 0.39278131634819535
+p450   RandomForestClassifier  Balanced Accuracy Score: 0.4065982760973377
+p450   RandomForestClassifier  Crossvalidation scores: [0.20375447 0.19133706 0.1949457  0.19588797 0.19079927]
+p450                 precision    recall  f1-score   support
+
+         nrp       0.30      0.57      0.39      1433
+          pk       0.59      0.33      0.42      1734
+        ripp       0.44      0.32      0.37      2014
+
+    accuracy                           0.39      5181
+   macro avg       0.44      0.41      0.39      5181
+weighted avg       0.45      0.39      0.39      5181
+
+p450   AdaBoostClassifier  score: 0.5379270411117545
+p450   AdaBoostClassifier  Balanced Accuracy Score: 0.5331621976245192
+p450   AdaBoostClassifier  Crossvalidation scores: [0.55720917 0.54163871 0.55415133 0.563689   0.55642524]
+p450                 precision    recall  f1-score   support
+
+         nrp       0.39      0.45      0.42      1433
+          pk       0.66      0.62      0.64      1734
+        ripp       0.56      0.53      0.54      2014
+
+    accuracy                           0.54      5181
+   macro avg       0.54      0.53      0.53      5181
+weighted avg       0.55      0.54      0.54      5181
+
+p450   BaggingClassifier  score: 0.4344721096313453
+p450   BaggingClassifier  Balanced Accuracy Score: 0.42527658668078233
+p450   BaggingClassifier  Crossvalidation scores: [0.42667356 0.44872065 0.4303584  0.44797246 0.43507923]
+p450                 precision    recall  f1-score   support
+
+         nrp       0.32      0.36      0.34      1433
+          pk       0.45      0.40      0.42      1734
+        ripp       0.52      0.52      0.52      2014
+
+    accuracy                           0.43      5181
+   macro avg       0.43      0.43      0.43      5181
+weighted avg       0.44      0.43      0.44      5181
+
+p450   DecisionTreeClassifier  score: 0.5045358038988612
+p450   DecisionTreeClassifier  Balanced Accuracy Score: 0.46521752030074276
+p450   DecisionTreeClassifier  Crossvalidation scores: [0.42378828 0.43828265 0.38788818 0.41740598 0.44626796]
+p450                 precision    recall  f1-score   support
+
+         nrp       0.51      0.16      0.25      1433
+          pk       0.87      0.37      0.52      1734
+        ripp       0.44      0.87      0.58      2014
+
+    accuracy                           0.50      5181
+   macro avg       0.61      0.47      0.45      5181
+weighted avg       0.60      0.50      0.47      5181
+
+p450   MLPClassifier  score: 0.2765875313646014
+p450   MLPClassifier  Balanced Accuracy Score: 0.3333333333333333
+p450   MLPClassifier  Crossvalidation scores: [0.18680556 0.18670373 0.18687044 0.18687044 0.18687044]
+p450                 precision    recall  f1-score   support
+
+         nrp       0.28      1.00      0.43      1433
+          pk       0.00      0.00      0.00      1734
+        ripp       0.00      0.00      0.00      2014
+
+    accuracy                           0.28      5181
+   macro avg       0.09      0.33      0.14      5181
+weighted avg       0.08      0.28      0.12      5181
+
+YCAO   ExtraTreesClassifier  score: 0.4619883040935672
+YCAO   ExtraTreesClassifier  Balanced Accuracy Score: 0.4099065745209887
+YCAO   ExtraTreesClassifier  Crossvalidation scores: [0.43122445 0.40402586 0.33398226 0.39672131 0.26425121]
+YCAO                 precision    recall  f1-score   support
+
+         nrp       0.41      0.45      0.43        53
+          pk       0.24      0.22      0.23        32
+        ripp       0.58      0.56      0.57        86
+
+    accuracy                           0.46       171
+   macro avg       0.41      0.41      0.41       171
+weighted avg       0.46      0.46      0.46       171
+
+YCAO   RandomForestClassifier  score: 0.26900584795321636
+YCAO   RandomForestClassifier  Balanced Accuracy Score: 0.3002230510457803
+YCAO   RandomForestClassifier  Crossvalidation scores: [0.29983933 0.30094467 0.29727293 0.28535354 0.27708196]
+YCAO                 precision    recall  f1-score   support
+
+         nrp       0.31      0.34      0.32        53
+          pk       0.16      0.38      0.22        32
+        ripp       0.44      0.19      0.26        86
+
+    accuracy                           0.27       171
+   macro avg       0.30      0.30      0.27       171
+weighted avg       0.35      0.27      0.27       171
+
+YCAO   AdaBoostClassifier  score: 0.4619883040935672
+YCAO   AdaBoostClassifier  Balanced Accuracy Score: 0.39511115986543804
+YCAO   AdaBoostClassifier  Crossvalidation scores: [0.45676107 0.46031746 0.46321195 0.40238095 0.47957813]
+YCAO                 precision    recall  f1-score   support
+
+         nrp       0.41      0.49      0.44        53
+          pk       0.14      0.12      0.13        32
+        ripp       0.62      0.57      0.59        86
+
+    accuracy                           0.46       171
+   macro avg       0.39      0.40      0.39       171
+weighted avg       0.46      0.46      0.46       171
+
+YCAO   BaggingClassifier  score: 0.391812865497076
+YCAO   BaggingClassifier  Balanced Accuracy Score: 0.40162443323094926
+YCAO   BaggingClassifier  Crossvalidation scores: [0.39071935 0.41440339 0.45479082 0.34611219 0.48280098]
+YCAO                 precision    recall  f1-score   support
+
+         nrp       0.41      0.55      0.47        53
+          pk       0.20      0.34      0.25        32
+        ripp       0.60      0.31      0.41        86
+
+    accuracy                           0.39       171
+   macro avg       0.40      0.40      0.38       171
+weighted avg       0.47      0.39      0.40       171
+
+YCAO   DecisionTreeClassifier  score: 0.5087719298245614
+YCAO   DecisionTreeClassifier  Balanced Accuracy Score: 0.4343736287845546
+YCAO   DecisionTreeClassifier  Crossvalidation scores: [0.53556166 0.57729469 0.47569132 0.47781848 0.57183212]
+YCAO                 precision    recall  f1-score   support
+
+         nrp       0.59      0.45      0.51        53
+          pk       0.21      0.19      0.20        32
+        ripp       0.56      0.66      0.61        86
+
+    accuracy                           0.51       171
+   macro avg       0.45      0.43      0.44       171
+weighted avg       0.50      0.51      0.50       171
+
+YCAO   MLPClassifier  score: 0.2573099415204678
+YCAO   MLPClassifier  Balanced Accuracy Score: 0.3510220125786163
+YCAO   MLPClassifier  Crossvalidation scores: [0.28483092 0.32683983 0.25913348 0.36300813 0.37348928]
+YCAO                 precision    recall  f1-score   support
+
+         nrp       0.40      0.49      0.44        53
+          pk       0.17      0.56      0.26        32
+        ripp       0.00      0.00      0.00        86
+
+    accuracy                           0.26       171
+   macro avg       0.19      0.35      0.23       171
+weighted avg       0.16      0.26      0.19       171
+
+SAM   ExtraTreesClassifier  score: 0.5916002896451846
+SAM   ExtraTreesClassifier  Balanced Accuracy Score: 0.5453434902157981
+SAM   ExtraTreesClassifier  Crossvalidation scores: [0.52828874 0.52719324 0.56257543 0.5183126  0.51632885]
+SAM                 precision    recall  f1-score   support
+
+         nrp       0.51      0.58      0.54       450
+          pk       0.44      0.34      0.39       293
+        ripp       0.71      0.71      0.71       638
+
+    accuracy                           0.59      1381
+   macro avg       0.55      0.55      0.55      1381
+weighted avg       0.59      0.59      0.59      1381
+
+SAM   RandomForestClassifier  score: 0.41419261404779145
+SAM   RandomForestClassifier  Balanced Accuracy Score: 0.3847755892454021
+SAM   RandomForestClassifier  Crossvalidation scores: [0.20925559 0.20843492 0.22067862 0.21244188 0.21366638]
+SAM                 precision    recall  f1-score   support
+
+         nrp       0.36      0.38      0.37       450
+          pk       0.32      0.27      0.29       293
+        ripp       0.49      0.50      0.50       638
+
+    accuracy                           0.41      1381
+   macro avg       0.39      0.38      0.39      1381
+weighted avg       0.41      0.41      0.41      1381
+
+SAM   AdaBoostClassifier  score: 0.5459811730629979
+SAM   AdaBoostClassifier  Balanced Accuracy Score: 0.5228668387218464
+SAM   AdaBoostClassifier  Crossvalidation scores: [0.55578212 0.5195887  0.55600319 0.55594228 0.52286011]
+SAM                 precision    recall  f1-score   support
+
+         nrp       0.48      0.54      0.51       450
+          pk       0.43      0.42      0.42       293
+        ripp       0.67      0.61      0.63       638
+
+    accuracy                           0.55      1381
+   macro avg       0.52      0.52      0.52      1381
+weighted avg       0.55      0.55      0.55      1381
+
+SAM   BaggingClassifier  score: 0.5517740767559739
+SAM   BaggingClassifier  Balanced Accuracy Score: 0.5281178344188818
+SAM   BaggingClassifier  Crossvalidation scores: [0.53838742 0.53273438 0.51963795 0.56402823 0.54707898]
+SAM                 precision    recall  f1-score   support
+
+         nrp       0.52      0.58      0.55       450
+          pk       0.36      0.40      0.38       293
+        ripp       0.69      0.60      0.64       638
+
+    accuracy                           0.55      1381
+   macro avg       0.53      0.53      0.52      1381
+weighted avg       0.57      0.55      0.56      1381
+
+SAM   DecisionTreeClassifier  score: 0.4786386676321506
+SAM   DecisionTreeClassifier  Balanced Accuracy Score: 0.49204048646204696
+SAM   DecisionTreeClassifier  Crossvalidation scores: [0.49804859 0.43849013 0.44586215 0.47089672 0.47883506]
+SAM                 precision    recall  f1-score   support
+
+         nrp       0.61      0.32      0.42       450
+          pk       0.31      0.64      0.42       293
+        ripp       0.60      0.52      0.55       638
+
+    accuracy                           0.48      1381
+   macro avg       0.51      0.49      0.47      1381
+weighted avg       0.54      0.48      0.48      1381
+
+SAM   MLPClassifier  score: 0.5662563359884142
+SAM   MLPClassifier  Balanced Accuracy Score: 0.5318402731960458
+SAM   MLPClassifier  Crossvalidation scores: [0.56224972 0.5470307  0.56784853 0.50720714 0.51098346]
+SAM                 precision    recall  f1-score   support
+
+         nrp       0.52      0.52      0.52       450
+          pk       0.40      0.40      0.40       293
+        ripp       0.68      0.67      0.68       638
+
+    accuracy                           0.57      1381
+   macro avg       0.53      0.53      0.53      1381
+weighted avg       0.57      0.57      0.57      1381
+
+Methyl   ExtraTreesClassifier  score: 0.5903876343436782
+Methyl   ExtraTreesClassifier  Balanced Accuracy Score: 0.5711718815587181
+Methyl   ExtraTreesClassifier  Crossvalidation scores: [0.56932226 0.57293932 0.58518875 0.56599289 0.57011604]
+Methyl                 precision    recall  f1-score   support
+
+         nrp       0.45      0.57      0.50      4396
+          pk       0.68      0.42      0.52      5095
+        ripp       0.65      0.73      0.69      7071
+
+    accuracy                           0.59     16562
+   macro avg       0.59      0.57      0.57     16562
+weighted avg       0.61      0.59      0.59     16562
+
+Methyl   RandomForestClassifier  score: 0.30871875377369884
+Methyl   RandomForestClassifier  Balanced Accuracy Score: 0.3603904245285483
+Methyl   RandomForestClassifier  Crossvalidation scores: [0.19958391 0.20087456 0.20144593 0.20026353 0.20318861]
+Methyl                 precision    recall  f1-score   support
+
+         nrp       0.27      0.86      0.41      4396
+          pk       0.43      0.11      0.18      5095
+        ripp       0.58      0.10      0.18      7071
+
+    accuracy                           0.31     16562
+   macro avg       0.43      0.36      0.26     16562
+weighted avg       0.45      0.31      0.24     16562
+
+Methyl   AdaBoostClassifier  score: 0.5558507426639295
+Methyl   AdaBoostClassifier  Balanced Accuracy Score: 0.5446104796768214
+Methyl   AdaBoostClassifier  Crossvalidation scores: [0.53768422 0.53970583 0.54081129 0.53698022 0.53036744]
+Methyl                 precision    recall  f1-score   support
+
+         nrp       0.42      0.47      0.44      4396
+          pk       0.54      0.55      0.55      5095
+        ripp       0.67      0.61      0.64      7071
+
+    accuracy                           0.56     16562
+   macro avg       0.54      0.54      0.54     16562
+weighted avg       0.56      0.56      0.56     16562
+
+Methyl   BaggingClassifier  score: 0.6279434850863422
+Methyl   BaggingClassifier  Balanced Accuracy Score: 0.6179985820780667
+Methyl   BaggingClassifier  Crossvalidation scores: [0.64000073 0.64315018 0.65442492 0.63435385 0.61796925]
+Methyl                 precision    recall  f1-score   support
+
+         nrp       0.50      0.56      0.53      4396
+          pk       0.62      0.61      0.62      5095
+        ripp       0.72      0.68      0.70      7071
+
+    accuracy                           0.63     16562
+   macro avg       0.62      0.62      0.62     16562
+weighted avg       0.63      0.63      0.63     16562
+
+Methyl   DecisionTreeClassifier  score: 0.4944451153242362
+Methyl   DecisionTreeClassifier  Balanced Accuracy Score: 0.4439647568456189
+Methyl   DecisionTreeClassifier  Crossvalidation scores: [0.36440069 0.49461791 0.4470189  0.40623509 0.38348757]
+Methyl                 precision    recall  f1-score   support
+
+         nrp       0.44      0.24      0.31      4396
+          pk       0.59      0.30      0.40      5095
+        ripp       0.48      0.79      0.60      7071
+
+    accuracy                           0.49     16562
+   macro avg       0.50      0.44      0.44     16562
+weighted avg       0.51      0.49      0.46     16562
+
+Methyl   MLPClassifier  score: 0.49021857263615504
+Methyl   MLPClassifier  Balanced Accuracy Score: 0.47415424215056423
+Methyl   MLPClassifier  Crossvalidation scores: [0.19954169 0.40934588 0.19949228 0.19951338 0.1995628 ]
+Methyl                 precision    recall  f1-score   support
+
+         nrp       0.31      0.29      0.30      4396
+          pk       0.50      0.59      0.54      5095
+        ripp       0.60      0.54      0.57      7071
+
+    accuracy                           0.49     16562
+   macro avg       0.47      0.47      0.47     16562
+weighted avg       0.49      0.49      0.49     16562
+
+
+
